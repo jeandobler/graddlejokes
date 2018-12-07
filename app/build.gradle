@@ -34,20 +34,22 @@ android {
 
 
     }
-
-
+    
     productFlavors {
+
         free {
             applicationId "com.udacity.gradle.builditbigger.free"
             applicationIdSuffix ".free"
             versionNameSuffix "-free"
         }
+
         paid {
             applicationId "com.udacity.gradle.builditbigger.paid"
             applicationIdSuffix ".paid"
             versionNameSuffix "-paid"
         }
     }
+
 
 }
 
