@@ -12,7 +12,6 @@
             <option value="$PROJECT_DIR$/backend" />
             <option value="$PROJECT_DIR$/front" />
             <option value="$PROJECT_DIR$/jokeLib" />
-            <option value="$PROJECT_DIR$/showfront" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
