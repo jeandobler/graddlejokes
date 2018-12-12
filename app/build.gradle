@@ -69,6 +69,6 @@ dependencies {
     })
 
     testImplementation 'junit:junit:4.12'
-    compile project(path: ':jokeLib')
-    compile project(path: ':front')
+    implementation project(path: ':jokeLib')
+    implementation project(path: ':front')
 }
