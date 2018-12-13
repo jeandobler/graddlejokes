@@ -26,7 +26,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
             String returns = new EndpointsAsyncTask().execute(mMainActivity.getBaseContext()).get();
             Thread.sleep(1500);
 
-            assertTrue(!returns.equals(""));
+            assertTrue(returns != null && !returns.equals(""));
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
